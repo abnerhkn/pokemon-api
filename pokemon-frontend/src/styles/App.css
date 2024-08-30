@@ -1,0 +1,132 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.App {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .App img{
+    width: 20%;
+    padding: 30px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .pokemon-card {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .pokemon-card:hover{
+    transform: translateY(5px);
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .modal-image {
+    max-width: 150px;
+  }
+  
+  .modal-details {
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .close-button {
+    margin-top: 20px;
+  }
+
+  .add-pokemon-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-pokemon-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .add-pokemon-form p {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .add-pokemon-form form div {
+    margin-bottom: 15px;
+  }
+  
+  .add-pokemon-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .add-pokemon-form input {
+    width: calc(100% - 12px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-pokemon-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .add-pokemon-form button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-pokemon-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-pokemon-form button:active {
+    background-color: #004494;
+  }
+  

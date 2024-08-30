@@ -1,0 +1,19 @@
+.modal-content{
+display: flex;
+gap: 40px;
+}
+
+.modal-separator{
+  background: black;
+  width: 1px;
+  height: 200px;
+}
+
+.modal-image{
+
+}
+
+.modal-details{
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
